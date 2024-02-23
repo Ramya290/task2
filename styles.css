@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Set background color */
+  }
+  
+  .calculator {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff; /* Set calculator background color */
+  }
+  
+  #display {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #ddd; /* Set display box background color */
+    border: 1px solid #999; /* Add border for display box */
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #4CAF50; /* Set button background color */
+    color: white; /* Set button text color */
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Change button color on hover */
+  }
+  
